@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado - SatruxDev</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Juego del Ahorcado</h1>
+            <p class="score">Puntuación: <span id="score">0</span></p>
+        </header>
+
+        <main>
+            <div class="game-container">
+                <canvas id="hangmanCanvas" width="300" height="300"></canvas>
+                
+                <div class="word-container">
+                    <div id="wordDisplay" class="word-display">
+                        <!-- Las letras se mostrarán aquí -->
+                    </div>
+                    <p id="category" class="category">Categoría: <span>Animales</span></p>
+                </div>
+
+                <div class="keyboard" id="keyboard">
+                    <!-- El teclado virtual se generará aquí -->
+                </div>
+
+                <div class="game-info">
+                    <p>Intentos restantes: <span id="attempts">6</span></p>
+                    <p>Letras usadas: <span id="usedLetters"></span></p>
+                </div>
+            </div>
+
+            <div class="modal hidden" id="gameOverModal">
+                <div class="modal-content">
+                    <h2 id="gameOverTitle">¡Fin del Juego!</h2>
+                    <p id="gameOverMessage"></p>
+                    <p>La palabra era: <span id="correctWord"></span></p>
+                    <button id="playAgainBtn" class="btn">Jugar de nuevo</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <button id="newGameBtn" class="btn">Nueva Partida</button>
+            <button id="changeCategory" class="btn">Cambiar Categoría</button>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
