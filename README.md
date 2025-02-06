@@ -1,7 +1,7 @@
 # Ahorcado Game
 
 ## Descripción
-El juego del Ahorcado es un clásico juego de palabras donde los jugadores intentan adivinar una palabra oculta adivinando letras, dentro de un número limitado de intentos. Este proyecto es una implementación del juego del Ahorcado en JavaScript.
+El juego del Ahorcado es un clásico juego de palabras donde los jugadores intentan adivinar una palabra oculta adivinando letras, dentro de un número limitado de intentos. Este proyecto implementa HTML, CSS y JS.
 
 ## Características
 - Interfaz de usuario intuitiva y atractiva.
