@@ -19,7 +19,7 @@ El juego del Ahorcado es un clásico juego de palabras donde los jugadores inten
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone [URL del repositorio]
+   git clone https://github.com/PedroPinteno/AhorcadoGame.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
